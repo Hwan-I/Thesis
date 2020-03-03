@@ -2,6 +2,11 @@
 
 ### Description
 
+##### 사용방법(clustering 기준)
+* 여기있는 파일을 그대로 전부 다운 받습니다.
+* data 폴더는 cluster를 만드는데 사용되는 폴더로 압축을 풀고 그대로 쓰시면 됩니다.
+* result는 cluster 결과를 저장하는 파일로 밑의 main에서 위치는 변경하실 수도 있습니다.
+
 ##### main.py 
 * new_clustering.py 파일을 실행시키는 파일입니다.
 * 변수설명은 다음과 같습니다.
