@@ -5,11 +5,11 @@
 ##### main.py 
 * new_clustering.py 파일을 실행시키는 파일입니다.
 * 변수설명은 다음과 같습니다.
- * nc.new_clustering 선언시
-  * cluster_save_path : cluster 결과를 저장하는 폴더 위치를 지정합니다. step1, 2, 3 파일 모두 pickle 형식으로 생성됩니다.
-  * w_str : 평일 또는 주말을 쓰는 변수로 평일은 'weekday', 주말은 'weekend'를 쓰면 됩니다.
-  * ok_bike_list : 원하는 자전거 정류소 번호를 리스트 형식으로 넣으면 됩니다. 예를 들면 [101,102,103,104,105]와 같은 형식입니다.
-  * slot : 5 또는 24를 입력하면 됩니다.(int 형식으로)
+  * nc.new_clustering 선언시
+    * cluster_save_path : cluster 결과를 저장하는 폴더 위치를 지정합니다. step1, 2, 3 파일 모두 pickle 형식으로 생성됩니다.
+    * w_str : 평일 또는 주말을 쓰는 변수로 평일은 'weekday', 주말은 'weekend'를 쓰면 됩니다.
+    * ok_bike_list : 원하는 자전거 정류소 번호를 리스트 형식으로 넣으면 됩니다. 예를 들면 [101,102,103,104,105]와 같은 형식입니다.
+    * slot : 5 또는 24를 입력하면 됩니다.(int 형식으로)
 
  * fit 
   * clus_method : 'kmeans' 또는 'kmoids'를 쓰는 것으로 cluster 방법을 쓰면 됩니다.
